@@ -1,0 +1,30 @@
+[project]
+name = "stablediffusiontest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "diffusers>=0.30.3",
+    "lightning>=2.4.0",
+    "peft>=0.12.0",
+    "torch>=2.4.1",
+    "torchvision>=0.19.1",
+    "transformers>=4.44.2",
+    "xformers>=0.0.28.post1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "albumentations>=1.4.18",
+    "gdown>=5.2.0",
+    "ipykernel>=6.29.5",
+    "mediapipe>=0.10.15",
+    "pandas>=2.2.3",
+    "pip>=24.2",
+    "ram",
+    "tensorflow>=2.17.0",
+]
+
+[tool.uv.sources]
+ram = { git = "https://github.com/xinyu1205/recognize-anything.git" }

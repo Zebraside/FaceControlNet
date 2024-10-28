@@ -1,0 +1,2 @@
+- [ ] Try ControlNet model with image input
+- [ ] Try ControlNet model with landmarks input
