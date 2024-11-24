@@ -23,9 +23,6 @@ if __name__ == "__main__":
 
     model = LitFaceControl(pretrained_model_path="stable-diffusion-v1-5/stable-diffusion-v1-5")
 
-
-    #TODO: add tensorboard logger here
-
     trainer = pl.Trainer(precision=16,
                          accelerator="gpu",
                          max_epochs=1,
